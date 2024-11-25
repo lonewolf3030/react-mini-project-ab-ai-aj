@@ -1,0 +1,42 @@
+.title{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 5rem;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.menu-items li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: .5rem 2rem;
+    border-radius: 20px;
+}
+
+.icon{
+    margin-top: 5px;
+    font-size: 20px; 
+}
+
+.search-bar input{
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 20px;
+  color: gray;
+  outline: none;
+}
